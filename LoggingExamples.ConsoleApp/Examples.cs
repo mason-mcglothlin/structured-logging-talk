@@ -13,7 +13,7 @@ namespace LoggingExamples.ConsoleApp
 		{
 			var logPath = Path.GetTempFileName();
 			var purchaseOrderNumber = 123456;
-			File.AppendAllText(logPath, $"Purchase Order {purchaseOrderNumber} received");
+			File.AppendAllText(logPath, $"{DateTime.Now:G} - Purchase Order {purchaseOrderNumber} received");
 		}
 
 		public static void SerilogUnstructured()
