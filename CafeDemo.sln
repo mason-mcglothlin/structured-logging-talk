@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDataSet", "CafeDataSet\CafeDataSet.csproj", "{BE1E5DF9-CC78-43D5-A8C4-B5CEB9D36BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDataSet", "src\CafeDataSet\CafeDataSet.csproj", "{BE1E5DF9-CC78-43D5-A8C4-B5CEB9D36BF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadCafeDataSet", "LoadCafeDataSet\LoadCafeDataSet.csproj", "{7C90F928-2194-4561-81F4-A4D5FE3C6EBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadCafeDataSet", "src\LoadCafeDataSet\LoadCafeDataSet.csproj", "{7C90F928-2194-4561-81F4-A4D5FE3C6EBD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadLiveCafeDataSet", "LoadLiveCafeDataSet\LoadLiveCafeDataSet.csproj", "{9CA27824-6E24-4CB3-A9A3-CD867CD96798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadLiveCafeDataSet", "src\LoadLiveCafeDataSet\LoadLiveCafeDataSet.csproj", "{9CA27824-6E24-4CB3-A9A3-CD867CD96798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
