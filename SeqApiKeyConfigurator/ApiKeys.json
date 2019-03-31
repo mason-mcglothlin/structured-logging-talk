@@ -1,0 +1,86 @@
+[
+  {
+    "Title": "LoggingExamples Prod",
+    "Token": "pt4kgNtNLcKDZIp7RXja",
+    "AppliedProperties": [
+      {
+        "Name": "Application",
+        "Value": "LoggingExamples"
+      },
+      {
+        "Name": "Environment",
+        "Value": "Production"
+      }
+    ]
+  },
+  {
+    "Title": "LoggingExamples Stage",
+    "Token": "iJALLVo402CQZpSaFqaD",
+    "AppliedProperties": [
+      {
+        "Name": "Application",
+        "Value": "LoggingExamples"
+      },
+      {
+        "Name": "Environment",
+        "Value": "Stage"
+      }
+    ]
+  },
+  {
+    "Title": "LoggingExamples Alternate Prod",
+    "Token": "au9mcOrmgohdBdd4cSIv",
+    "AppliedProperties": [
+      {
+        "Name": "Environment",
+        "Value": "Production"
+      },
+      {
+        "Name": "Application",
+        "Value": "LoggingExamplesAlternate"
+      }
+    ]
+  },
+  {
+    "Title": "LoggingExamples Alternate Stage",
+    "Token": "6d9FxKATDmRZnbf1Z2SY",
+    "AppliedProperties": [
+      {
+        "Name": "Environment",
+        "Value": "Stage"
+      },
+      {
+        "Name": "Application",
+        "Value": "LoggingExamplesAlternate"
+      }
+    ]
+  },
+  {
+    "Title": "Cafe Production",
+    "Token": "Taa0y9FPYcfqWXOuHCHh",
+    "AppliedProperties": [
+      {
+        "Name": "Application",
+        "Value": "Cafe"
+      },
+      {
+        "Name": "Environment",
+        "Value": "Production"
+      }
+    ]
+  },
+  {
+    "Title": "Cafe Stage",
+    "Token": "kUC9lFPHyJxU0R5FS0Aa",
+    "AppliedProperties": [
+      {
+        "Name": "Application",
+        "Value": "Cafe"
+      },
+      {
+        "Name": "Environment",
+        "Value": "Stage"
+      }
+    ]
+  }
+]

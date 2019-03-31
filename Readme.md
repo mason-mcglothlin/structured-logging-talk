@@ -8,7 +8,7 @@ This set of code was provided by Nicholas Blumhardt at Datalust, the company beh
 
 ## LoggingExamples.sln
 
-Contains several examples demonstrating different concepts in unstructured and structured logging, with a focus on using Serilog library.
+Contains several examples demonstrating different concepts in unstructured and structured logging, with a focus on using Serilog library. Also contains a utility program to load all the Seq API keys needed for the example.
 
 ## StructuredLogging.pptx
 

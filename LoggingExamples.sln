@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingExamples.ConsoleApp", "src\LoggingExamples.ConsoleApp\LoggingExamples.ConsoleApp.csproj", "{3A6DD3CD-D246-4E16-8E8F-9E2ABCB11BF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeqApiKeyConfigurator", "SeqApiKeyConfigurator\SeqApiKeyConfigurator.csproj", "{61FEE244-4A21-4809-8697-88D5E1A90DD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A6DD3CD-D246-4E16-8E8F-9E2ABCB11BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A6DD3CD-D246-4E16-8E8F-9E2ABCB11BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A6DD3CD-D246-4E16-8E8F-9E2ABCB11BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FEE244-4A21-4809-8697-88D5E1A90DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FEE244-4A21-4809-8697-88D5E1A90DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FEE244-4A21-4809-8697-88D5E1A90DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FEE244-4A21-4809-8697-88D5E1A90DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
