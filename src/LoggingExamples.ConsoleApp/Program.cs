@@ -17,10 +17,10 @@ namespace LoggingExamples.ConsoleApp
 				.Enrich.WithMachineName()
 				.MinimumLevel.Verbose()
 				.WriteTo.Console()
-			    .WriteTo.Seq("http://localhost:5341", apiKey: "pt4kgNtNLcKDZIp7RXja") //Production
-				//.WriteTo.Seq("http://localhost:5341", apiKey: "iJALLVo402CQZpSaFqaD") //Stage
-				//.WriteTo.Seq("http://localhost:5341", apiKey: "au9mcOrmgohdBdd4cSIv") //Alternate Prod
-				//.WriteTo.Seq("http://localhost:5341", apiKey: "6d9FxKATDmRZnbf1Z2SY") //Alternate Stage
+				.WriteTo.Seq("http://localhost:5341", apiKey: "pt4kgNtNLcKDZIp7RXja") //Production
+																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "iJALLVo402CQZpSaFqaD") //Stage
+																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "au9mcOrmgohdBdd4cSIv") //Alternate Prod
+																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "6d9FxKATDmRZnbf1Z2SY") //Alternate Stage
 				.CreateLogger();
 
 			while (true)
@@ -58,13 +58,13 @@ namespace LoggingExamples.ConsoleApp
 
 		static string ChooseOperation()
 		{
-			Console.WriteLine("Choose a method:");
+			Console.WriteLine("Choose a method by its number:");
 
 			var methods = GetExampleMethods();
 
-			foreach (var method in methods)
+			for (int i = 1; i <= methods.Length; i++)
 			{
-				Console.WriteLine("\t" + method.Name);
+				Console.WriteLine($"\t {i}. {methods[i - 1].Name}");
 			}
 
 			var userInput = Console.ReadLine().Trim();
@@ -74,11 +74,16 @@ namespace LoggingExamples.ConsoleApp
 				return "exit";
 			}
 
-			var selectedMethod = methods.Select(m => m.Name)
-										.SingleOrDefault(m => m.Equals(userInput, StringComparison.InvariantCultureIgnoreCase));
+			var validNumber = int.TryParse(userInput, out int selectedIndex);
 
-
-			return selectedMethod;
+			if (validNumber && selectedIndex > 0 && selectedIndex <= methods.Length)
+			{
+				return methods[selectedIndex - 1].Name;
+			}
+			else
+			{
+				return userInput;
+			}
 		}
 
 		static MethodInfo[] GetExampleMethods()
