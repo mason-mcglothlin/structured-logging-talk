@@ -18,9 +18,9 @@ namespace LoggingExamples.ConsoleApp
 				.MinimumLevel.Verbose()
 				.WriteTo.Console()
 				.WriteTo.Seq("http://localhost:5341", apiKey: "pt4kgNtNLcKDZIp7RXja") //Production
-																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "iJALLVo402CQZpSaFqaD") //Stage
-																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "au9mcOrmgohdBdd4cSIv") //Alternate Prod
-																					  //.WriteTo.Seq("http://localhost:5341", apiKey: "6d9FxKATDmRZnbf1Z2SY") //Alternate Stage
+				//.WriteTo.Seq("http://localhost:5341", apiKey: "iJALLVo402CQZpSaFqaD") //Stage
+				//.WriteTo.Seq("http://localhost:5341", apiKey: "au9mcOrmgohdBdd4cSIv") //Alternate Prod
+				//.WriteTo.Seq("http://localhost:5341", apiKey: "6d9FxKATDmRZnbf1Z2SY") //Alternate Stage
 				.CreateLogger();
 
 			while (true)
